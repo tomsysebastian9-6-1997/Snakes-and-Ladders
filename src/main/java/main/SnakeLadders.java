@@ -73,7 +73,7 @@ public class SnakeLadders{
 							place = place - 4;
 						}
 						if(ladder(i,j)) {
-							place = place +5;
+							place = 5+ place;
 						}
 					}
 				}
